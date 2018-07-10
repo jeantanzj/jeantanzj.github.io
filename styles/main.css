@@ -1,0 +1,33 @@
+html, body{
+  font: 'PT Sans', 'sans-serif';
+  --accent-color: #e5e7ea;
+}
+.wrapper{
+  display:flex;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+.box{
+  display:flex;
+  margin:auto;
+  border:1px solid var(--accent-color);
+  padding:20px;
+}
+.photo{
+ margin-top:10px;
+ width:100px;
+ height:100px;
+ border-radius:50%;
+ box-shadow:4px 2px 10px var(--accent-color);
+ object-fit:cover;
+}
+h1{
+  padding-bottom: 10px;
+}
+.em{
+ font-style: italic;
+ padding-bottom:10px;
+}
